@@ -14,100 +14,23 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/here/apis.md
 specificationVersion: "0.14"
 apis:
-- name: HERE Batch Geocoder API
-  x-api-slug: here-batch-geocoder-api
-  description: HERE Technologies enables people, enterprises and cities around the
-    world to harness the power of location and create innovative solutions that make
-    our lives safer and more efficient. We transform information from devices, vehicles,
-    infrastructure and...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg
-  humanURL: https://developer.here.com
-  baseURL: https://batch.geocoder.cit.api.here.com//6.2
-  tags: Areas
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/here/openapi.md
-- name: HERE Custom Location Extension API
-  x-api-slug: here-custom-location-extension-api
-  description: HERE Technologies enables people, enterprises and cities around the
-    world to harness the power of location and create innovative solutions that make
-    our lives safer and more efficient. We transform information from devices, vehicles,
-    infrastructure and...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg
-  humanURL: https://developer.here.com
-  baseURL: https://customlocation.cit.api.here.com//v1/search
-  tags: Areas
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/here/openapi.md
-- name: HERE Geocoder API
-  x-api-slug: here-geocoder-api
-  description: HERE Technologies enables people, enterprises and cities around the
-    world to harness the power of location and create innovative solutions that make
-    our lives safer and more efficient. We transform information from devices, vehicles,
-    infrastructure and...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg
-  humanURL: https://developer.here.com
-  baseURL: https://geocoder.cit.api.here.com//6.2
-  tags: Areas
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/here/openapi.md
-- name: HERE Map Image API
-  x-api-slug: here-map-image-api
-  description: HERE Technologies enables people, enterprises and cities around the
-    world to harness the power of location and create innovative solutions that make
-    our lives safer and more efficient. We transform information from devices, vehicles,
-    infrastructure and...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg
-  humanURL: https://developer.here.com
-  baseURL: https://image.maps.cit.api.here.com//mia/1.6
-  tags: Areas
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/here/openapi.md
-- name: HERE Map Tile API
-  x-api-slug: here-map-tile-api
-  description: HERE Technologies enables people, enterprises and cities around the
-    world to harness the power of location and create innovative solutions that make
-    our lives safer and more efficient. We transform information from devices, vehicles,
-    infrastructure and...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg
-  humanURL: https://developer.here.com
-  baseURL: https://1.aerial.maps.cit.api.here.com//maptile/2.1/maptile/newest
-  tags: Areas
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/here/openapi.md
-- name: HERE Places API
-  x-api-slug: here-places-api
-  description: HERE Technologies enables people, enterprises and cities around the
-    world to harness the power of location and create innovative solutions that make
-    our lives safer and more efficient. We transform information from devices, vehicles,
-    infrastructure and...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg
-  humanURL: https://developer.here.com
-  baseURL: https://places.demo.api.here.com//places/v1
-  tags: Areas
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/here/openapi.md
-- name: HERE Platform Data Extension API
-  x-api-slug: here-platform-data-extension-api
-  description: HERE Technologies enables people, enterprises and cities around the
-    world to harness the power of location and create innovative solutions that make
-    our lives safer and more efficient. We transform information from devices, vehicles,
-    infrastructure and...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg
-  humanURL: https://developer.here.com
-  baseURL: https:///
-  tags: Areas
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/here/openapi.md
-- name: HERE Public Transit API
-  x-api-slug: here-public-transit-api
-  description: examples-for-public-transit-nlp-2-1-6-or-higher
+- name: Public Transport API - Reachability of an Area Within a Specific Time
+  x-api-slug: isochronev1search-json-get
+  description: "*Request a list of the public transit stations that can be reached
+    in a given time*\n\nTo find the stations reachable in a specified time use the
+    `isochrone/v1/search.json` endpoint specifying a center point using the `x` and
+    `y` parameters and a maximum total duration in minutes using the `max_dur `parameter.\n
+    \ \n\n\n\n* **max_dur**  `number`\n \\- Maximum duration of the journeys, in minutes.
+    \  Minimum = 5, Maximum = 90.    The default duration is 15 minutes.    \n\n*
+    **y**  `number`\n \\- The latitude of the start point of your journey.    e.g.
+    `52.515`  \n\n* **x**  `number`\n \\- The longitude of the start point of your
+    journey.    e.g. `13.377`    \n\n* **time**  `text`\n \\- Specifies the time in
+    ISO 8601 (for example, 2015-10-18T06:36:40)\n        format. \n\n* **app_id**
+    \ `text`\n \\- A 20 bytes Base64 URL-safe encoded string used for the authentication
+    of the client application.    You must include an app_code and app_code with every
+    request.\n\n* **app_code**  `text`\n \\- A 20 bytes Base64 URL-safe encoded string
+    used for the authentication of the client application.    You must include an
+    app_code and app_code with every request."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg
   humanURL: https://developer.here.com
   baseURL: https://cit.transit.api.here.com//
@@ -118,9 +41,23 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/here/isochronev1search-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/here/isochronev1search-json-get-openapi.md
-- name: HERE Public Transit API
-  x-api-slug: here-public-transit-api
-  description: examples-for-public-transit-nlp-2-1-6-or-higher
+- name: Public Transport API - Reachability of an Area Within a Specific Time
+  x-api-slug: isochronev1search-json-get
+  description: "*Request a list of the public transit stations that can be reached
+    in a given time*\n\nTo find the stations reachable in a specified time use the
+    `isochrone/v1/search.json` endpoint specifying a center point using the `x` and
+    `y` parameters and a maximum total duration in minutes using the `max_dur `parameter.\n
+    \ \n\n\n\n* **max_dur**  `number`\n \\- Maximum duration of the journeys, in minutes.
+    \  Minimum = 5, Maximum = 90.    The default duration is 15 minutes.    \n\n*
+    **y**  `number`\n \\- The latitude of the start point of your journey.    e.g.
+    `52.515`  \n\n* **x**  `number`\n \\- The longitude of the start point of your
+    journey.    e.g. `13.377`    \n\n* **time**  `text`\n \\- Specifies the time in
+    ISO 8601 (for example, 2015-10-18T06:36:40)\n        format. \n\n* **app_id**
+    \ `text`\n \\- A 20 bytes Base64 URL-safe encoded string used for the authentication
+    of the client application.    You must include an app_code and app_code with every
+    request.\n\n* **app_code**  `text`\n \\- A 20 bytes Base64 URL-safe encoded string
+    used for the authentication of the client application.    You must include an
+    app_code and app_code with every request."
   image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg
   humanURL: https://developer.here.com
   baseURL: https://cit.transit.api.here.com//
@@ -131,99 +68,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/here/isochronev1search-json-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/here/isochronev1search-json-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/here/isochronev1search-json-get-openapi.md
-- name: HERE Public Transit API
-  x-api-slug: here-public-transit-api
-  description: HERE Technologies enables people, enterprises and cities around the
-    world to harness the power of location and create innovative solutions that make
-    our lives safer and more efficient. We transform information from devices, vehicles,
-    infrastructure and...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg
-  humanURL: https://developer.here.com
-  baseURL: https://cit.transit.api.here.com//
-  tags: Areas
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/here/openapi.md
-- name: HERE Route Match Extension API
-  x-api-slug: here-route-match-extension-api
-  description: HERE Technologies enables people, enterprises and cities around the
-    world to harness the power of location and create innovative solutions that make
-    our lives safer and more efficient. We transform information from devices, vehicles,
-    infrastructure and...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg
-  humanURL: https://developer.here.com
-  baseURL: https://pde.cit.api.here.com//1
-  tags: Areas
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/here/openapi.md
-- name: HERE Routing API
-  x-api-slug: here-routing-api
-  description: HERE Technologies enables people, enterprises and cities around the
-    world to harness the power of location and create innovative solutions that make
-    our lives safer and more efficient. We transform information from devices, vehicles,
-    infrastructure and...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg
-  humanURL: https://developer.here.com
-  baseURL: https://route.cit.api.here.com//routing/7.2
-  tags: Areas
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/here/openapi.md
-- name: HERE Traffic API
-  x-api-slug: here-traffic-api
-  description: HERE Technologies enables people, enterprises and cities around the
-    world to harness the power of location and create innovative solutions that make
-    our lives safer and more efficient. We transform information from devices, vehicles,
-    infrastructure and...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg
-  humanURL: https://developer.here.com
-  baseURL: https://tiles.traffic.cit.api.here.com//traffic/6.0/tiles/8/133/86/256
-  tags: Areas
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/here/openapi.md
-- name: HERE Venue Maps
-  x-api-slug: here-venue-maps
-  description: HERE Technologies enables people, enterprises and cities around the
-    world to harness the power of location and create innovative solutions that make
-    our lives safer and more efficient. We transform information from devices, vehicles,
-    infrastructure and...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg
-  humanURL: https://developer.here.com
-  baseURL: https://signature.venue.maps.cit.api.here.com//venues/signature
-  tags: Areas
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/here/openapi.md
-- name: HERE Waypoint Sequence Extension API
-  x-api-slug: here-waypoint-sequence-extension-api
-  description: HERE Technologies enables people, enterprises and cities around the
-    world to harness the power of location and create innovative solutions that make
-    our lives safer and more efficient. We transform information from devices, vehicles,
-    infrastructure and...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg
-  humanURL: https://developer.here.com
-  baseURL: https://wse.cit.api.here.com//2
-  tags: Areas
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/here/openapi.md
-- name: HERE Weather API
-  x-api-slug: here-weather-api
-  description: HERE Technologies enables people, enterprises and cities around the
-    world to harness the power of location and create innovative solutions that make
-    our lives safer and more efficient. We transform information from devices, vehicles,
-    infrastructure and...
-  image: http://kinlane-productions.s3.amazonaws.com/screen-capture-api/20089-here-maps.jpg
-  humanURL: https://developer.here.com
-  baseURL: https://weather.cit.api.here.com//weather/1.0
-  tags: Areas
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/here/openapi.md
 x-common:
 - type: x-blog-rss
   url: https://developer.here.com/blog/feed

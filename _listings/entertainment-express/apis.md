@@ -19,9 +19,9 @@ modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/entertainment-express/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Entertainment Express
-  x-api-slug: entertainment-express
-  description: your-gateway-to-building-incredible-movie-tv-and-game-content-discovery-experiences-
+- name: 'Entertainment Express - '
+  x-api-slug: tvmedialineupsbrowsecountryidregionidareaid-get
+  description: Get lineups by AreaID.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
   humanURL: https://www.internetvideoarchive.com/
   baseURL: https://ee.iva-api.com//
@@ -31,9 +31,9 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/entertainment-express/tvmedialineupsbrowsecountryidregionidareaid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/entertainment-express/tvmedialineupsbrowsecountryidregionidareaid-get-openapi.md
-- name: Entertainment Express
-  x-api-slug: entertainment-express
-  description: your-gateway-to-building-incredible-movie-tv-and-game-content-discovery-experiences-
+- name: 'Entertainment Express - '
+  x-api-slug: tvmedialineupsbrowsecountryidregionidareaid-get
+  description: Get lineups by AreaID.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
   humanURL: https://www.internetvideoarchive.com/
   baseURL: https://ee.iva-api.com//
@@ -43,26 +43,6 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/entertainment-express/tvmedialineupsbrowsecountryidregionidareaid-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/entertainment-express/tvmedialineupsbrowsecountryidregionidareaid-get-openapi.md
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/entertainment-express/tvmedialineupsbrowsecountryidregionidareaid-get-openapi.md
-- name: Entertainment Express
-  x-api-slug: entertainment-express
-  description: Internet Video Archive (IVA) is a leading entertainment data company
-    providing metadata, images and trailers/clips, for movie and TV content. With
-    the launch of its award-winning Entertainment Express APIs, clients can easily
-    access everything they need to create engaging content discovery experiences.
-    By using Entertainment Express, clients can also connect to other services like
-    movie showtimes and ticketing, content recommendations, content availability and
-    TV channel line-ups. With over a million titles, episodes and over 150,000 videos
-    available, IVA makes it easy for developers to integrate all the services they
-    need at a very affordable price.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
-  humanURL: https://www.internetvideoarchive.com/
-  baseURL: https://ee.iva-api.com//
-  tags: Areas
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/entertainment-express/openapi.md
 x-common:
 - type: x-api-gallery
   url: http://emuseum.api.docs.api.gallery.streamdata.io
