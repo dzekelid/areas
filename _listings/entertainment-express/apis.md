@@ -14,11 +14,23 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: "0"
 tags: Areas
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/entertainment-express/apis.md
 specificationVersion: "0.14"
 apis:
+- name: 'Entertainment Express - '
+  x-api-slug: tvmedialineupsbrowsecountryidregionidareaid-get
+  description: Get lineups by AreaID.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/IVA-logo.png
+  humanURL: https://www.internetvideoarchive.com/
+  baseURL: https://ee.iva-api.com//
+  tags: Celebrities, Movies, General Data, Televisions, Videos
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/entertainment-express/tvmedialineupsbrowsecountryidregionidareaid-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/entertainment-express/tvmedialineupsbrowsecountryidregionidareaid-get-openapi.md
 - name: 'Entertainment Express - '
   x-api-slug: tvmedialineupsbrowsecountryidregionidareaid-get
   description: Get lineups by AreaID.

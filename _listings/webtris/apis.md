@@ -9,8 +9,8 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "7"
 x-alexaRank: ""
 tags: Areas
-created: "2018-08-25"
-modified: "2018-08-25"
+created: "2018-08-27"
+modified: "2018-08-27"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/webtris/apis.md
 specificationVersion: "0.14"
 apis:
@@ -26,6 +26,18 @@ apis:
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/webtris/vversionareas-get-postman.md
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/webtris/vversionareas-get-openapi.md
+- name: ' - Returns details of selected area'
+  x-api-slug: vversionareasarea-ids-get
+  description: Returns details of selected area.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/webtris-traffic-flow-api.png
+  humanURL: http://webtris.highwaysengland.co.uk/
+  baseURL: https://webtris.highwaysengland.co.uk//api
+  tags: Traffic, Transportation, General Data
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/webtris/vversionareasarea-ids-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/areas/master/_listings/webtris/vversionareasarea-ids-get-openapi.md
 - name: ' - Returns details of selected area'
   x-api-slug: vversionareasarea-ids-get
   description: Returns details of selected area.
